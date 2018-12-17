@@ -124,8 +124,7 @@ class App extends Component {
               className={'masonry'}
               options={{isFitWidth:true}}
               disableImagesLoaded={false}
-              updateOnEachImageLoad={false}
-
+              updateOnEachImageLoad={true}
             >
             {this.state.pictures}
           </Masonry>
