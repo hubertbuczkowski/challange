@@ -1,0 +1,54 @@
+
+.out{
+  margin: 25px;
+}
+.box{
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  font-size: 12px;
+  background-color: white;
+}
+a{
+  text-decoration: none;
+  color: #0033cc;
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.link{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 5px;
+
+}
+.tags{
+  height: auto;
+  color: #0033cc;
+  font-size: 11px;
+  font-weight: bold;
+  word-wrap: break-word;
+  padding: 5px;
+}
+.owner{
+  padding: 5px;
+  color: grey;
+  font-size: 11px;
+}
+.date{
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: grey;
+  text-align: right;
+}
+.title{
+  overflow: hidden;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+
+}
